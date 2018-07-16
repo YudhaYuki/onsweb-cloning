@@ -1,0 +1,48 @@
+.text-animation__title__line-1 {
+    animation: moveInLeft 1s ease-out;
+}
+
+.text-animation__title__line-2  {
+    animation: moveInRight 1s ease-out;
+}
+
+.large-hero__description-animated {
+    animation: typeWriter 5s steps(28) 1.5s;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid $mainBlue;
+    width: 28ch;
+    font-weight: 400;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);         
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);         
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

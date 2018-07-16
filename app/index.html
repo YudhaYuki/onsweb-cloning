@@ -1,0 +1,363 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <title>YudhaYuki | Portfolio</title>
+  <meta name="keywords" content="Frontend Developer, Frontend Developer Brussels, Frontend Developer Amsterdam, Frontend Developer Rotterdam">
+  <meta name="description" content="Pleased you with our UI works">
+
+  <!-- build:css assets/styles/styles.css -->
+  <link rel="stylesheet" href="temp/styles/styles.css">
+  <!-- endbuild -->
+
+  <!-- build:js assets/scripts/Vendor.js -->
+  <script src="/temp/scripts/Vendor.js"></script>
+  <!-- endbuild -->
+
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="site-header__logo">
+          <div class="site-header__logo__graphic icon onsweb">YudhaYuki</div>          
+      </div>
+
+      <div class="site-header__menu-icon">
+        <div class="site-header__menu-icon__middle"></div>
+      </div>
+
+      <div class="site-header__menu-content">
+        <div class="site-header__btn-container">
+            <a class="btn open-modal btn-animation" href="#">Inlogen</a>            
+            <a class="btn open-modal btn-animation" href="#">Contact</a>            
+        </div>
+        <nav class="primary-nav primary-nav--pull-right">
+          <ul>
+            <li><a href="#onze-oplosingen" id="onze-oplosingen-link">OPLOSINGEN</a></li>
+            <li><a href="#we-love-rotterdam" id="we-love-rotterdam-link">ONS KANTOOR</a></li>
+            <li><a href="#partners" id="partners-link">PARTNER</a></li>
+            <li><a href="#project-slider" id="projects-slider-link">PROJECTS</a></li>
+            <li><a href="#onze-klanten" id="about-link">KLANTEN</a></li>
+            <li><a href="#ons-team" id="#ons-team-link">TEAM</a></li>
+            <li><a href="#questions" id="questions-link">QUESTIONS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="large-hero">
+
+    <div class="large-hero__fullscreen-video--wrap">
+        <video autoplay="autoplay" src="./assets/images/onsweb_video.mp4" type="video/mp4" class="large-hero__video" preload="auto" loop="true"></video>
+    </div>
+    
+    <div class="large-hero--overlay"></div>
+
+    <div class="large-hero__content">
+      <div class="wrapper">
+          <h1 class="large-hero__title text-animation__title__line-1">ONSWEB</h1>
+          <h1 class="large-hero__title text-animation__title__line-2">INTERNETBUREAU</h1>
+            <p class="large-hero__description">Aangenaam! Wij zijn dé online specialist met meer dan 15 jaar ervaring in portal-, website- en webshopontwikkeling. We ontwikkelen oplossingen en koppelingen voor nationale en internationale organisaties met online ambitie.</p>
+          <p><a href="#" class="btn btn--large btn-animation btn-animation--large-btn open-modal">Get in touch</a></p>
+      </div>
+    </div>
+    
+  </div>
+
+<!--
+<div class="landing-video">
+    <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+            <source src="assets/images/onsweb_video.mp4" type="video/mp4">
+            <source src="assets/images/onsweb_video.webm" type="video/webm">
+                Your browser is not supported !
+        </video>
+    </div>
+</div>
+
+-->
+
+
+  <div id="onze-oplosingen" class="page-section lazyload" data-matching-link="#onze-oplosingen-link">
+    <div class="wrapper">
+      <h2 class="section-title"></span>Onze<strong> oplossingen.</strong></h2>
+
+      <p>
+        We ontwikkelen oplossingen voor organisaties met online ambitie. Organisaties die willen groeien, innoveren en automatiseren. Denk aan oplossingen als portals met diverse ERP-koppelingen, uitgebreide websites en e-commerce oplossingen.
+      </p>
+      
+      <div class="my-projects">
+
+        <div class="my-projects__item">
+          <img class="lazyload" data-srcset="/assets/images/portal-responsive.jpg" alt="project natours">
+          <div class="projects-inner">
+            <h3 class="projects-title">Natours</h3>
+            <div>
+              <a href="http://yuyutours.surge.sh/" class="btn btn-animation btn--behind-card-2">Meer over</a> 
+            </div>
+          </div>
+        </div>
+        <div class="my-projects__item">
+          <img class="lazyload" data-srcset="/assets/images/websites-600x600.png" alt="project warna holiday">
+          <div class="projects-inner">
+            <h3 class="projects-title">Warna Holiday</h3>
+            <div>
+                <a href="http://warna.surge.sh/" class="btn btn-animation btn--behind-card-2">Meer over</a> 
+            </div>
+          </div>
+        </div>
+        <div class="my-projects__item">
+          <img class="lazyload" data-srcset="/assets/images/webshopshome-600x600.jpg" alt="project Big Day Out">
+          <div class="projects-inner">
+            <h3 class="projects-title">Big Day Out</h3>
+            <div>
+                <a href="http://bigdayout.data4you.cz/" class="btn btn-animation btn--behind-card-2">Meer over</a> 
+            </div>
+          </div>
+        </div>
+        <div class="my-projects__item">
+          <img class="lazyload" data-srcset="/assets/images/online-marketing-1-600x600.jpg" alt="project Big Day Out">
+          <div class="projects-inner">
+            <h3 class="projects-title">Big Day Out</h3>
+            <div>
+                <a href="http://bigdayout.data4you.cz/" class="btn btn-animation btn--behind-card-2">Meer over</a> 
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="my-projects__extras">
+
+        <div class="my-projects__extras__item">
+          <img class="lazyload" data-srcset="/assets/images/brainstorm-3-600x600.jpg" alt="project natours">
+          <div class="projects-inner">
+            <h3 class="projects-title">Natours</h3>
+
+            <div>
+              <a href="http://yuyutours.surge.sh/" class="btn btn-animation btn--behind-card-2">Meer over</a> 
+            </div>
+          </div>
+        </div>
+        <div class="my-projects__extras__item">
+          <img class="lazyload" data-srcset="/assets/images/ontwikkeling-1-600x600.jpg" alt="project warna holiday">
+          <div class="projects-inner">
+            <h3 class="projects-title">Warna Holiday</h3>
+            <div>
+                <a href="http://warna.surge.sh/" class="btn btn-animation btn--behind-card-2">Meer over</a> 
+            </div>
+          </div>
+        </div>
+        <div class="my-projects__extras__item">
+          <img class="lazyload" data-srcset="/assets/images/online-marketing-1-600x600.jpg" alt="project Big Day Out">
+          <div class="projects-inner">
+            <h3 class="projects-title">Big Day Out</h3>
+            <div>
+                <a href="http://bigdayout.data4you.cz/" class="btn btn-animation btn--behind-card-2">Meer over</a> 
+            </div>
+          </div>
+        </div>
+        <div class="my-projects__extras__item">
+          <img class="lazyload" data-srcset="/assets/images/schermen-1-600x600.jpg" alt="project Big Day Out">
+          <div class="projects-inner">
+            <h3 class="projects-title">Big Day Out</h3>
+            <div>
+                <a href="http://bigdayout.data4you.cz/" class="btn btn-animation btn--behind-card-2">Meer over</a> 
+            </div>
+          </div>
+        </div>
+        <div class="my-projects__extras__item">
+          <img class="lazyload" data-srcset="/assets/images/server-600x600.jpg" alt="project Big Day Out">
+          <div class="projects-inner">
+            <h3 class="projects-title">Big Day Out</h3>
+            <div>
+                <a href="http://bigdayout.data4you.cz/" class="btn btn-animation btn--behind-card-2">Meer over</a> 
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="we-love-rotterdam" class="page-section page-section--our-office lazyload" data-matching-link="#we-love-rotterdam-link">
+    <div class="wrapper">
+
+        <h2 class="headline headline--centered headline--light headline--b-margin-small line-on-side">We love rotterdam</h2>
+        
+        <div class="skill-section">
+
+          <div class="skill-section__paragraph">
+            <p>Ons kantoor bevindt zich aan de Westblaak in hartje centrum Rotterdam. Echt een supertoffe locatie direct achter de Witte de Withstraat. We zijn gevestigd op de negende verdieping van het Thornico Building (met excellent view) tegenover het skatepark.</p>
+          </div>
+
+          <div class="skill-section__paragraph">
+            <p>
+              Zowel met de fiets, auto als het openbaar vervoer zijn we prima bereikbaar. En met een eigen inpandige garage in het gebouw is parkeren voor onze klanten geen enkel probleem. Bij een bezoek ontvang je hier uiteraard een uitrijkaart voor.
+            </p>
+          </div>
+
+      </div>
+
+      <div>
+        <p><a href="#" class="btn btn--large btn-animation btn-animation--large-btn open-modal">Get in touch</a></p>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+  <div id="partners" class="page-section lazyload" data-matching-link="#partners-link">
+    <div class="wrapper">
+      <h2 class="section-title"></span>Al<strong> 15</strong> jaar strategisch partner.</h2>
+
+      <p>
+        De afgelopen 15 jaar hebben we veel verschillende oplossingen ontwikkeld. We zijn dan ook trots op ons werk. Onderstaand een greep uit de recent door ons ontwikkelde projecten.
+      </p>
+      
+    </div>
+  </div>
+
+
+  <div id="project-slider" class="page-section page-section--blue lazyload" data-matching-link="#project-slider-link">
+      <div class="wrapper">
+        
+        <div class="my-projects">
+  
+          <div class="my-projects__item">
+            <img class="lazyload" data-srcset="/assets/images/online-marketing-1-600x600.jpg" alt="project Big Day Out">
+            <div class="projects-inner">
+              <h3 class="projects-title">Big Day Out</h3>
+              <p class="projects-description">A project using PHP, Laravel, JavaScript, CSS3 and Bootstrap</p>
+              <div>
+                <a href="https://github.com/YudhaYuki/final_project" class="btn btn-animation btn--behind-card-1">Look source</a>
+              </div>
+              <div>
+                  <a href="http://bigdayout.data4you.cz/" class="btn btn-animation btn--behind-card-2">Visit Site</a> 
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+  <div id="onze-klanten" class="page-section lazyload" data-matching-link="#onze-klanten-link">
+    <div class="wrapper">
+      <h2 class="section-title"></span>Onze<strong> klanten.</strong></h2>
+
+      <p>
+          We werken met veel verschillende klanten samen. Van sportbonden en -verenigingen tot overheid. Van groot MKB tot internationale spelers. Die mix vinden we belangrijk. Het is verfrissend en houdt ons scherp. We denken mee en gaan samen voor het beste resultaat. Onderstaand een greep uit onze uitgebreide klantenkring.
+      </p>
+      
+      <div class="our-clients">
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-ikea.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-ministerie.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-jovd.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-madurodam.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-infomedics.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-ikea.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-ministerie.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-jovd.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-madurodam.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-infomedics.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-ikea.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-ministerie.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-jovd.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-madurodam.jpg" alt="project natours">
+        </div>
+
+        <div class="our-clients__client">
+          <img class="lazyload" data-srcset="/assets/images/logo-infomedics.jpg" alt="project natours">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+        <p><span class="site-footer__text">Copyright &copy; 2018 YudhaYuki. All rights reserved.</span><a class="btn btn--orange open-modal btn-animation" href="#">Get in Touch</a></p>
+    </div>
+  </footer>
+
+
+  <div class="modal">
+      <div class="modal__inner">
+
+        <h2 class="section-title section-title--less-margin section-title--blue"><span class="icon icon--mail section-title__icon"></span> Get in <strong> Touch </strong></h2>
+        <div class="wrapper wrapper--narrow">
+          <div class="modal__description">
+              <p>I can be contacted via:</p>
+              <p>Yudha.Yuki@hotmail.com</p>
+              <p>(+32) 0477458446</p>
+          </div>
+    
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/yudha-yuki-9970ba109/" class="social-icons__icon"><span class="icon icon--linkedin"></span></a>
+            <a href="https://github.com/YudhaYuki" class="social-icons__icon"><span class="icon icon--github"></span></a>    
+          </div>
+
+        </div>
+          
+      </div>
+
+    <div class="modal__close">X</div>
+
+  </div>
+
+
+  <!-- build:js assets/scripts/App.js -->
+  <script src="/temp/scripts/App.js"></script>
+  <!-- endbuild -->
+</body>
+</html>

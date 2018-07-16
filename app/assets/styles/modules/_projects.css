@@ -1,0 +1,149 @@
+.my-projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+
+    @mixin atSmall {
+        padding: 0 5rem;
+    }
+}
+
+.my-projects__extras {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+
+    @mixin atSmall {
+        padding: 0 5rem;
+    }
+}
+    
+.my-projects__item {
+    width: 222.5px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin: .5rem;
+    
+    & img {
+        transition: all .3s ease-out;
+    }
+
+    &:hover img {
+        transform: scale(1.2, 1.2) rotate(10deg);
+    }
+
+    &:hover .projects-inner {
+        transform: scale(1);
+    }
+
+    &:before {
+        position: absolute;
+        content: '';
+        background-color: rgba(#16293d, .85);
+        transition: all .5s ease-in;
+        top: -60%;
+        right: -210%;
+        width: 450%;
+        height: 50%;
+        z-index: 3;
+        transform: rotate(50deg);
+    }
+
+    &:hover:before {
+        top: 120%;
+        right: 120%
+    }
+
+    .projects-inner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(#16293d, .85);
+        color: #fff;
+        text-align: center;
+        transform: scale(0);
+        transition: all .5s ease;
+    }
+
+    .projects-title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: $mainOrange;
+        font-size: 2rem;
+    }
+
+    .projects-description {
+        padding: 0 .75rem;
+        font-size: 1.3rem;
+
+    }
+}
+
+.my-projects__extras__item {
+    width: 176px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin: .5rem;
+    
+    & img {
+        transition: all .3s ease-out;
+    }
+
+    &:hover img {
+        transform: scale(1.2, 1.2) rotate(10deg);
+    }
+
+    &:hover .projects-inner {
+        transform: scale(1);
+    }
+
+    &:before {
+        position: absolute;
+        content: '';
+        background-color: rgba(#16293d, .85);
+        transition: all .5s ease-in;
+        top: -60%;
+        right: -210%;
+        width: 450%;
+        height: 50%;
+        z-index: 3;
+        transform: rotate(50deg);
+    }
+
+    &:hover:before {
+        top: 120%;
+        right: 120%
+    }
+
+    .projects-inner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(#16293d, .85);
+        color: #fff;
+        text-align: center;
+        transform: scale(0);
+        transition: all .5s ease;
+    }
+
+    .projects-title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: $mainOrange;
+        font-size: 2rem;
+    }
+
+    .projects-description {
+        padding: 0 .75rem;
+        font-size: 1.3rem;
+
+    }
+}
